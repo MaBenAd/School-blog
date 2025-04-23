@@ -1,0 +1,26 @@
+# Node modules (gros, inutiles à versionner)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Caches / builds
+.cache/
+dist/
+build/
+
+# Env files (jamais en public !)
+server/.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code / IDE
+.vscode/
+.idea/
+
